@@ -3596,6 +3596,42 @@
       </setupTask>
       <setupTask
           xsi:type="setup.p2:P2Task"
+          label="emf">
+        <requirement
+            name="org.eclipse.emf.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.ecoretools.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.ecore.xcore.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.diffmerge.sdk.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.query.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.transaction.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.validation.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.compare.ide.ui.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.compare.egit.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.compare.diagram.sirius.feature.group"/>
+        <requirement
+            name="org.eclipse.emf.compare.uml2.feature.group"/>
+        <requirement
+            name="org.eclipse.uml2.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.xsd.sdk.feature.group"/>
+        <repository
+            url="http://download.eclipse.org/technology/epp/packages/2019-03"/>
+        <repository
+            url="http://download.eclipse.org/releases/2019-03/201903201000"/>
+      </setupTask>
+      <setupTask
+          xsi:type="setup.p2:P2Task"
           label="Payara Tools">
         <requirement
             name="org.eclipse.payara.tools.feature.group"/>
