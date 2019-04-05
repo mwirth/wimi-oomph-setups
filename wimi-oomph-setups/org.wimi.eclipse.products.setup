@@ -446,8 +446,6 @@
       <requirement
           name="de.bastiankrol.startexplorer.feature.feature.group"/>
       <requirement
-          name="org.eclipse.mylyn.hudson.feature.group"/>
-      <requirement
           name="fr.obeo.releng.targetplatform-feature.feature.group"/>
       <requirement
           name="jsonedit-feature.feature.group"/>
@@ -1532,8 +1530,6 @@
           name="AnyEditTools.feature.group"/>
       <requirement
           name="de.bastiankrol.startexplorer.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.hudson.feature.group"/>
       <requirement
           name="jsonedit-feature.feature.group"/>
       <repository
@@ -3379,8 +3375,6 @@
           name="AnyEditTools.feature.group"/>
       <requirement
           name="de.bastiankrol.startexplorer.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.hudson.feature.group"/>
       <requirement
           name="jsonedit-feature.feature.group"/>
       <repository
