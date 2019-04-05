@@ -3975,6 +3975,28 @@
       <repository
           url="http://download.eclipse.org/oomph/updates"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="extras common">
+      <requirement
+          name="com.codeaffine.gonsole.egit.feature.feature.group"/>
+      <requirement
+          name="com.codeaffine.gonsole.feature.feature.group"/>
+      <requirement
+          name="AnyEditTools.feature.group"/>
+      <requirement
+          name="de.bastiankrol.startexplorer.feature.feature.group"/>
+      <requirement
+          name="jsonedit-feature.feature.group"/>
+      <repository
+          url="http://rherrmann.github.io/gonsole/repository/"/>
+      <repository
+          url="http://andrei.gmxhome.de/eclipse/"/>
+      <repository
+          url="http://basti1302.github.com/startexplorer/update"/>
+      <repository
+          url="http://boothen.github.io/Json-Eclipse-Plugin/"/>
+    </setupTask>
     <version
         name="latest"
         label="Latest (2019-03)"
