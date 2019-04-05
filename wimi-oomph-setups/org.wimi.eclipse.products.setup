@@ -3011,8 +3011,8 @@
     </version>
     <description>wimi e(fx)clipse for JavaFX and optional OSGi develpment</description>
   </product>
-  <product name="Eclipse IDE for JakartaEE"
-      label="Eclipse IDE for JakartaEE">
+  <product name="wimi.eclipse.payara"
+      label="wimi Eclipse IDE for JakartaEE, MP and Payara">
     <setupTask
         xsi:type="setup:CompoundTask"
         name="saveAction">
@@ -3587,7 +3587,7 @@
             url="https://cdn.rawgit.com/payara/Payara_PatchedProjects/eclipse/payaratools/oxygen/development"/>
       </setupTask>
     </version>
-    <description>Eclipse IDE for JakartaEE</description>
+    <description>wimi Eclipse IDE for JakartaEE, MP and Payara</description>
   </product>
   <description>The catalog for eclipse packages bundled from wimi</description>
 </setup:ProductCatalog>
