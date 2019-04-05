@@ -3415,9 +3415,9 @@
         label="2019-03">
       <setupTask
           xsi:type="setup.p2:P2Task"
-          label="Eclipse IDE for Eclipse Committers (2019-03)">
+          label="Eclipse IDE for Enterprise Java Developers (2019-03)">
         <requirement
-            name="epp.package.committers"
+            name="epp.package.jee"
             versionRange="[4.11.0,5.0.0)"/>
         <requirement
             name="org.eclipse.platform.feature.group"
@@ -3428,15 +3428,85 @@
         <requirement
             name="org.eclipse.buildship.feature.group"/>
         <requirement
-            name="org.eclipse.cvs.feature.group"/>
+            name="org.eclipse.cft.server.core.feature.feature.group"/>
         <requirement
-            name="org.eclipse.e4.core.tools.feature.feature.group"/>
+            name="org.eclipse.cft.server.ui.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.common.doc.user.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.connectivity.doc.user.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.connectivity.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.connectivity.oda.designer.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.connectivity.oda.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.doc.user.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.apache.derby.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.hsqldb.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.ibm.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.ingres.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.jdbc.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.jdt.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.msft.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.mysql.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.oda.designer.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.oda.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.oracle.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.postgresql.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.sap.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.sdk.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.sqlite.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.enablement.sybase.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.intro.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.modelbase.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sdk.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.data.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.ddl.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.parsers.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.results.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.datatools.sqltools.doc.user.feature.group"/>
         <requirement
             name="org.eclipse.eclemma.feature.feature.group"/>
         <requirement
             name="org.eclipse.egit.feature.group"/>
-        <requirement
-            name="org.eclipse.egit.gitflow.feature.feature.group"/>
         <requirement
             name="org.eclipse.egit.mylyn.feature.group"/>
         <requirement
@@ -3444,43 +3514,63 @@
         <requirement
             name="org.eclipse.jdt.feature.group"/>
         <requirement
-            name="org.eclipse.jdt.source.feature.group"/>
+            name="org.eclipse.jpt.common.eclipselink.feature.feature.group"/>
         <requirement
-            name="org.eclipse.jgit.http.apache.feature.group"/>
+            name="org.eclipse.jpt.common.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jpt.jaxb.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jpt.jpa.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jsf.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.common.fproj.enablement.jdt.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.enterprise_ui.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.server_adapters.ext.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.server_adapters.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.server_ui.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.web_ui.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.webpageeditor.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.ws.axis2tools.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.ws.cxf.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.ws.jaxws.dom.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.jst.ws.jaxws.feature.feature.group"/>
         <requirement
             name="org.eclipse.m2e.feature.feature.group"/>
         <requirement
+            name="org.eclipse.m2e.logback.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.m2e.wtp.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.m2e.wtp.jaxrs.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.m2e.wtp.jpa.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.m2e.wtp.jsf.feature.feature.group"/>
+        <requirement
             name="org.eclipse.mylyn.bugzilla_feature.feature.group"/>
         <requirement
-            name="org.eclipse.mylyn.builds.feature.group"/>
+            name="org.eclipse.mylyn.context_feature.feature.group"/>
         <requirement
-            name="org.eclipse.mylyn.commons.feature.group"/>
+            name="org.eclipse.mylyn.ide_feature.feature.group"/>
         <requirement
-            name="org.eclipse.mylyn.commons.identity.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.commons.notifications.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.commons.repositories.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.commons.repositories.http.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.discovery.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.gerrit.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.git.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.hudson.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.monitor.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.reviews.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.team_feature.feature.group"/>
-        <requirement
-            name="org.eclipse.mylyn.versions.feature.group"/>
+            name="org.eclipse.mylyn.java_feature.feature.group"/>
         <requirement
             name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
         <requirement
@@ -3488,15 +3578,23 @@
         <requirement
             name="org.eclipse.pde.feature.group"/>
         <requirement
-            name="org.eclipse.pde.source.feature.group"/>
+            name="org.eclipse.tips.feature.feature.group"/>
         <requirement
-            name="org.eclipse.platform.source.feature.group"/>
+            name="org.eclipse.tm.terminal.feature.feature.group"/>
         <requirement
-            name="org.eclipse.rcp.source.feature.group"/>
+            name="org.eclipse.wst.common.fproj.feature.group"/>
         <requirement
-            name="org.eclipse.wst.json_ui.feature.feature.group"/>
+            name="org.eclipse.wst.jsdt.chromium.debug.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.wst.jsdt.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.wst.server_adapters.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.wst.web_ui.feature.feature.group"/>
         <requirement
             name="org.eclipse.wst.xml_ui.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.wst.xsl.feature.feature.group"/>
         <repository
             url="http://download.eclipse.org/technology/epp/packages/2019-03"/>
         <repository
