@@ -2465,6 +2465,14 @@
       <repository
           url="http://download.eclipse.org/oomph/updates"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="quicksearch">
+      <requirement
+          name="org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group"/>
+      <repository
+          url="https://download.springsource.com/release/TOOLS/update/e4.10/"/>
+    </setupTask>
     <version
         name="2018-12"
         label="2018-12">
