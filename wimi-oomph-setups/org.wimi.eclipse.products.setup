@@ -2613,12 +2613,44 @@
           url="https://download.springsource.com/release/TOOLS/update/e4.10/"/>
     </setupTask>
     <version
-        name="2019-09"
-        label="2019-09"
+        name="2019-06"
+        label="2019-06"
         requiredJavaVersion="1.8">
       <setupTask
           xsi:type="setup.p2:P2Task"
-          label="Eclipse IDE for Eclipse Committers (2019-09)">
+          label="e(fx)clipse">
+        <requirement
+            name="org.eclipse.fx.ide.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.pde.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.m2e.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.fxml.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.fxgraph.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.css.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.converter.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.basic.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.gmod.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.l10n.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.rrobot.feature.feature.group"/>
+        <requirement
+            name="org.eclipse.fx.ide.ldef.feature.feature.group"/>
+        <repository
+            url="http://download.eclipse.org/efxclipse/runtime-nightly/site"/>
+        <repository
+            url="http://download.eclipse.org/efxclipse/updates-nightly/site"/>
+      </setupTask>
+      <setupTask
+          xsi:type="setup.p2:P2Task"
+          label="Eclipse IDE for Eclipse Committers (2019-06)">
         <requirement
             name="epp.package.committers"
             versionRange="[4.12.0,5.0.0)"/>
@@ -2701,44 +2733,12 @@
         <requirement
             name="org.eclipse.wst.xml_ui.feature.feature.group"/>
         <repository
-            url="http://download.eclipse.org/technology/epp/packages/2019-09"/>
+            url="http://download.eclipse.org/technology/epp/packages/2019-06"/>
         <repository
-            url="http://download.eclipse.org/releases/2019-09">
+            url="http://download.eclipse.org/releases/2019-06/201906191000">
           <annotation
               source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
         </repository>
-      </setupTask>
-      <setupTask
-          xsi:type="setup.p2:P2Task"
-          label="e(fx)clipse">
-        <requirement
-            name="org.eclipse.fx.ide.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.pde.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.m2e.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.fxml.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.fxgraph.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.css.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.converter.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.basic.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.gmod.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.l10n.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.rrobot.feature.feature.group"/>
-        <requirement
-            name="org.eclipse.fx.ide.ldef.feature.feature.group"/>
-        <repository
-            url="http://download.eclipse.org/efxclipse/runtime-nightly/site"/>
-        <repository
-            url="http://download.eclipse.org/efxclipse/updates-nightly/site"/>
       </setupTask>
     </version>
     <version
